@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCases.FreshworkTest"/>
+      <class name="testngfeatures.InvocationCount"/>
+      <class name="TestCases.TestngAssignment"/>
+      <class name="testngsessions.AmazonTestWithBM"/>
+      <class name="testngsessions.TestNgAnnotations"/>
+      <class name="testngfeatures.PriorityConcept"/>
+      <class name="TestCases.GoogleTest"/>
+      <class name="TestCases.BaseTest"/>
+      <class name="TestCases.AmazonTest"/>
+      <class name="TestCases.LoginNegativeTest"/>
+      <class name="testngfeatures.TestEnableDisable"/>
+      <class name="testngsessions.AmazonTestBT"/>
+      <class name="testngfeatures.DependsOnMethodsConcept"/>
+      <class name="testngfeatures.ExpectedExceptioConcept"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
